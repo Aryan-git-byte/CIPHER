@@ -1,0 +1,68 @@
+# =========================
+# 🔧 KiCad (IMPORTANT)
+# =========================
+
+# Backup folders (useless for git)
+*-backups/
+*_backups/
+backups/
+
+# Cache files
+fp-info-cache
+*.kicad_prl
+
+# Autosave / temp
+*.autosave
+*.tmp
+*.bak
+
+# Lock files
+*.lck
+
+# Plot / fabrication outputs (generated files)
+*.gbr
+*.drl
+*.step
+*.stp
+*.pos
+*.rpt
+*.csv
+
+# =========================
+# 💻 Firmware / Code
+# =========================
+
+# Build folders
+build/
+dist/
+out/
+
+# Compiled files
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# Arduino junk
+*.ino.cpp
+*.arduino.*
+
+# =========================
+# 🧠 IDE / OS junk
+# =========================
+
+# Linux / Mac / Windows trash
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+
+# =========================
+# 📦 Archives (optional)
+# =========================
+
+*.tar
+*.tar.gz

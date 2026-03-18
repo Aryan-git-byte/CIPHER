@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CM5108064B")(type "KiCad")(uri "/home/aryan-kumar/Projects/CIPHER/kicad/resources/CM5/CM5108064B.kicad_sym")(options "")(descr ""))
+  (lib (name "CM5108032")(type "KiCad")(uri "/home/aryan-kumar/Projects/CIPHER/kicad/resources/CM5/CM5108032.kicad_sym")(options "")(descr ""))
+)
