@@ -1,0 +1,501 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0e81c85d-86ab-4d5d-8c59-60b8e6f89475")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 92.71 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ff99409-bfc9-4fdb-8d0d-778a9222dae3")
+	)
+	(junction
+		(at 76.2 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "526e6c78-d2ff-494b-aa30-03c1100e2668")
+	)
+	(junction
+		(at 92.71 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7273b6e8-12cd-4f43-b314-6b2237c8905e")
+	)
+	(wire
+		(pts
+			(xy 76.2 114.3) (xy 76.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8db1c5-6912-4db8-8b48-e2acf53b09e2")
+	)
+	(wire
+		(pts
+			(xy 76.2 134.62) (xy 120.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313fb032-5951-4155-bd08-edabdbcd2f10")
+	)
+	(wire
+		(pts
+			(xy 92.71 96.52) (xy 119.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f694d3-7ecc-4740-8afd-57adcad843f8")
+	)
+	(wire
+		(pts
+			(xy 78.74 93.98) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8612fc68-c076-46f5-9236-3ea441b671bb")
+	)
+	(wire
+		(pts
+			(xy 218.44 115.57) (xy 218.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b54f2d-8745-460f-af02-fe39d7694e35")
+	)
+	(wire
+		(pts
+			(xy 218.44 127) (xy 76.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18c60a5-823c-4433-a6cc-b3702a0da00e")
+	)
+	(wire
+		(pts
+			(xy 92.71 137.16) (xy 92.71 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3342b5-bea0-461e-8073-344858119eee")
+	)
+	(wire
+		(pts
+			(xy 214.63 124.46) (xy 92.71 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b8b898-c6a0-471e-98bf-7cd295f92573")
+	)
+	(wire
+		(pts
+			(xy 78.74 96.52) (xy 92.71 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2983d2d-5c86-4f91-9fc6-6a601ff91e52")
+	)
+	(wire
+		(pts
+			(xy 120.65 137.16) (xy 92.71 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9854f13-332b-4324-8ec3-f6ee20e899ef")
+	)
+	(wire
+		(pts
+			(xy 76.2 127) (xy 76.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1f2f20-13d7-4fad-bd2a-519afc8069d5")
+	)
+	(wire
+		(pts
+			(xy 214.63 115.57) (xy 214.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efaf33ab-57b4-4652-8821-57644ebfd298")
+	)
+	(wire
+		(pts
+			(xy 92.71 124.46) (xy 92.71 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c961d1-3301-477b-87a7-5889fdd951b4")
+	)
+	(sheet
+		(at 210.82 83.82)
+		(size 41.91 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d6bced7-1bbd-4604-8bae-89d93aa4735e")
+		(property "Sheetname" "GPIO breakout board"
+			(at 210.82 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/home/aryan-kumar/Projects/CIPHER/kicad/GPIO-board/GPIO-board.kicad_sch"
+			(at 210.82 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 210.82 107.95 180)
+			(uuid "a84602d5-b67b-4a19-867d-a083cd632683")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 214.63 115.57 270)
+			(uuid "2a1e9281-938d-487c-9a23-1c4e608071d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" bidirectional
+			(at 218.44 115.57 270)
+			(uuid "4aa4c80e-f154-4058-bcd8-7ed009a6441d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 210.82 105.41 180)
+			(uuid "f7288662-6f9c-40d6-878d-3f4fe72c7bdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "OVERALL"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 85.09)
+		(size 35.56 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "78f1dc77-bf22-4751-b485-498b3e6b57a4")
+		(property "Sheetname" "Power Board"
+			(at 43.18 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/home/aryan-kumar/Projects/CIPHER/kicad/power-supply/power-supply.kicad_sch"
+			(at 26.924 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_OUT" output
+			(at 78.74 93.98 0)
+			(uuid "f35f9d62-4266-47b9-a159-c0d34212259a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 78.74 96.52 0)
+			(uuid "b280219b-d813-4f08-9120-bb6b63ad3115")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_OUT" output
+			(at 76.2 114.3 270)
+			(uuid "ef1c34d1-a98b-4e37-9713-00c784b5afc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "OVERALL"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 86.36)
+		(size 48.26 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b23c6cec-f7d8-4bb5-9180-0d1142d1aed0")
+		(property "Sheetname" "Main-Board"
+			(at 119.38 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/home/aryan-kumar/Projects/CIPHER/kicad/main-board/main-board.kicad_sch"
+			(at 119.38 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_IN" input
+			(at 119.38 93.98 180)
+			(uuid "69c4f264-7630-4d64-8eb0-a6aedd54c95f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 119.38 96.52 180)
+			(uuid "69892eb3-0dcd-4b46-8628-cdad278c3181")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "OVERALL"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 129.54)
+		(size 48.26 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bafe0d2a-8811-473e-8ec6-d3ad5dd25656")
+		(property "Sheetname" "Navigation Board"
+			(at 120.65 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/home/aryan-kumar/Projects/CIPHER/kicad/Navigation-Board/Navigation-Board.kicad_sch"
+			(at 120.65 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 120.65 134.62 180)
+			(uuid "3c54788b-97a7-4238-bd32-9fcbb0ff4914")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_GND" bidirectional
+			(at 120.65 137.16 180)
+			(uuid "530f51e2-a16c-472a-b6bc-d0c27ef00cb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 149.86 129.54 90)
+			(uuid "6608b8d4-5840-4060-ba6f-acb172b3f4df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 152.4 129.54 90)
+			(uuid "83110952-d941-42ad-bc93-39cca2a28a08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "OVERALL"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 59.69)
+		(size 29.21 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1a52823-f947-4610-9419-62373c9ba07e")
+		(property "Sheetname" "Instrument board"
+			(at 156.21 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/home/aryan-kumar/Projects/CIPHER/kicad/Instrument/Instrument.kicad_sch"
+			(at 156.21 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OVERALL"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

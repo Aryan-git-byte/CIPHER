@@ -809,6 +809,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -6855,17 +6997,6 @@
 		)
 		(uuid "9f3405f1-bf0d-430d-939c-daabd7ceac66")
 	)
-	(text "PLACEHOLDER\n FOR\n CONNECTORS\n(TO BE PLACED)"
-		(exclude_from_sim no)
-		(at 72.136 66.802 0)
-		(effects
-			(font
-				(face "Inter Display")
-				(size 7.62 7.62)
-			)
-		)
-		(uuid "e1a21160-f2a2-495b-ba58-740c17160cef")
-	)
 	(text "TYPE-C\nCHARGER\n"
 		(exclude_from_sim no)
 		(at 107.188 231.648 0)
@@ -7025,6 +7156,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2be7b798-01cf-42e0-a45a-0ef5de388e5e")
+	)
+	(junction
+		(at 45.72 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d90ac36-6c4e-4cb7-8131-f37e592f58b8")
 	)
 	(junction
 		(at 250.19 69.85)
@@ -7897,6 +8034,12 @@
 		(uuid "f08e8ab1-88df-4e4b-a20c-fc0b7b12f4c2")
 	)
 	(junction
+		(at 45.72 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f413a6ba-5d1b-4344-a470-26dded129929")
+	)
+	(junction
 		(at 176.53 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8113,6 +8256,16 @@
 			(type default)
 		)
 		(uuid "086e9c03-502d-4bc6-a99d-1a0b5d01bd74")
+	)
+	(wire
+		(pts
+			(xy 38.1 31.75) (xy 50.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e80878-fcf1-4bf0-90c9-23254cfbb9ad")
 	)
 	(wire
 		(pts
@@ -8343,6 +8496,16 @@
 			(type default)
 		)
 		(uuid "17533a9b-36ea-402b-b9b7-50f9ade12b40")
+	)
+	(wire
+		(pts
+			(xy 50.8 44.45) (xy 50.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17abd521-4bbf-44ce-ad3e-bd42fd2e1411")
 	)
 	(wire
 		(pts
@@ -8623,6 +8786,16 @@
 			(type default)
 		)
 		(uuid "28ad9c6a-3cd6-4369-9c11-7613d7323ad3")
+	)
+	(wire
+		(pts
+			(xy 53.34 44.45) (xy 50.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2906018f-b50c-493b-ba9f-4634cf3b7b61")
 	)
 	(wire
 		(pts
@@ -9173,6 +9346,16 @@
 			(type default)
 		)
 		(uuid "4317882c-2bbb-49c4-90cc-f2d808ae03b2")
+	)
+	(wire
+		(pts
+			(xy 38.1 49.53) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4367c608-358f-425d-aa9a-8cc4a9ae578d")
 	)
 	(wire
 		(pts
@@ -10716,6 +10899,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 29.21) (xy 50.8 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cec5c12-2c69-4c3e-becf-3650bbffb2bb")
+	)
+	(wire
+		(pts
 			(xy 346.71 110.49) (xy 355.6 110.49)
 		)
 		(stroke
@@ -11274,6 +11467,16 @@
 		)
 		(uuid "ab4be859-d749-4bc1-b152-e2adde676712")
 	)
+	(wire
+		(pts
+			(xy 45.72 34.29) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6af276-8db4-4697-995d-a35f3ef72e2f")
+	)
 	(polyline
 		(pts
 			(xy 231.14 205.74) (xy 231.14 257.81)
@@ -11726,6 +11929,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 49.53) (xy 53.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4934d17-ad1e-47e6-bed5-f4fd45421dc5")
+	)
+	(wire
+		(pts
 			(xy 184.15 198.12) (xy 187.96 198.12)
 		)
 		(stroke
@@ -11863,6 +12076,16 @@
 			(type default)
 		)
 		(uuid "ca908f3b-d1d7-4b4d-9e9f-f53e6615d8f6")
+	)
+	(wire
+		(pts
+			(xy 38.1 46.99) (xy 50.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa8e1d4-3672-483d-8c9b-05c0fd5b3650")
 	)
 	(wire
 		(pts
@@ -12066,6 +12289,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 34.29) (xy 45.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d526f72d-448e-4bcb-8425-5000758858a4")
+	)
+	(wire
+		(pts
 			(xy 171.45 26.67) (xy 168.91 26.67)
 		)
 		(stroke
@@ -12183,6 +12416,16 @@
 			(type default)
 		)
 		(uuid "d9dd8847-0639-461f-bf3e-7fc7e260ceb2")
+	)
+	(wire
+		(pts
+			(xy 50.8 29.21) (xy 50.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da222830-f367-455b-b550-ac5a6c3308e5")
 	)
 	(wire
 		(pts
@@ -13314,6 +13557,16 @@
 		)
 		(uuid "c7816511-3c64-464d-9bb0-5deff6f41d0b")
 	)
+	(label "VOUT-1"
+		(at 49.53 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d54d5693-7e10-439d-96ec-4fbc0e3fd993")
+	)
 	(label "CC1"
 		(at 102.87 195.58 180)
 		(effects
@@ -13323,6 +13576,16 @@
 			(justify right bottom)
 		)
 		(uuid "d6cd0bf8-f8ca-474d-952f-62a08251483d")
+	)
+	(label "VOUT-3"
+		(at 49.53 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8db5348-5a52-4ebf-a705-9670f42a9c70")
 	)
 	(label "EN"
 		(at 256.54 236.22 90)
@@ -13373,6 +13636,50 @@
 			(justify left bottom)
 		)
 		(uuid "f96414f3-b9cb-47e4-b036-79544cae037b")
+	)
+	(hierarchical_label "5V_OUT"
+		(shape output)
+		(at 53.34 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22a15a20-ad91-4bc5-a40a-738ca6379a98")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 53.34 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fd171de-8907-476b-85ea-b066688d44dc")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 53.34 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7eeb23e5-13af-4833-b44a-c2db9a713345")
+	)
+	(hierarchical_label "3V3_OUT"
+		(shape output)
+		(at 53.34 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce743aa2-d017-4fdd-a6f8-88ee2a2b8b6c")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -13435,6 +13742,12 @@
 			(uuid "a1220e8f-cf0b-47be-bc77-65ec3b40ac18")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C16")
@@ -13502,6 +13815,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR035")
 					(unit 1)
@@ -13567,6 +13886,12 @@
 			(uuid "694a84a0-8d13-4dc1-8add-c48236eac739")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR013")
@@ -13634,6 +13959,12 @@
 			(uuid "27010821-220c-47c3-89c4-64d3917afe15")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R45")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R45")
@@ -13704,6 +14035,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R26")
 					(unit 1)
@@ -13771,6 +14108,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "TP7")
 					(unit 1)
@@ -13836,6 +14179,12 @@
 			(uuid "2f52280f-5356-4d66-8070-24272d48ea25")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR019")
@@ -13906,6 +14255,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R2")
 					(unit 1)
@@ -13970,6 +14325,12 @@
 			(uuid "e2d52187-9cd0-4a85-bed1-a4e65b2777a2")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR025")
@@ -14051,6 +14412,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "U4")
 					(unit 1)
@@ -14120,6 +14487,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C19")
 					(unit 1)
@@ -14185,6 +14558,12 @@
 			(uuid "3d67fa9e-ccc8-4f9a-b0f9-c4f4409e5247")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR047")
@@ -14284,6 +14663,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "Q7")
 					(unit 1)
@@ -14351,6 +14736,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "L3")
 					(unit 1)
@@ -14417,6 +14808,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR043")
 					(unit 1)
@@ -14482,6 +14879,12 @@
 			(uuid "d521979a-b71d-4a49-a6f9-a0a131529a0b")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR04")
@@ -14552,6 +14955,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C36")
 					(unit 1)
@@ -14620,6 +15029,12 @@
 			(uuid "74635824-d731-4ad1-859e-6627e7f13e51")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R9")
@@ -14691,6 +15106,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C46")
 					(unit 1)
@@ -14757,6 +15178,12 @@
 			(uuid "cfe40652-1415-4eb3-962d-910d2bdbb737")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R12")
@@ -14825,6 +15252,12 @@
 			(uuid "0c75b5cc-b830-4304-b744-8378afba8b60")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "L1")
@@ -14895,6 +15328,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C6")
 					(unit 1)
@@ -14959,6 +15398,12 @@
 			(uuid "3aa7816c-535d-4d45-b6b6-dd8a0314733a")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR09")
@@ -15026,6 +15471,12 @@
 			(uuid "f9b51dea-bf7e-4b33-b10e-939cb5f1d82a")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "TP1")
@@ -15096,6 +15547,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C18")
 					(unit 1)
@@ -15160,6 +15617,12 @@
 			(uuid "5c3a00a9-b6c6-40d0-b313-5c2e831dfe14")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR027")
@@ -15230,6 +15693,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C10")
 					(unit 1)
@@ -15299,6 +15768,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C52")
 					(unit 1)
@@ -15365,6 +15840,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR017")
 					(unit 1)
@@ -15430,6 +15911,12 @@
 			(uuid "75ba60d9-c1e4-46fe-a78f-1ac2efeac2e9")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR042")
@@ -15500,6 +15987,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R30")
 					(unit 1)
@@ -15569,6 +16062,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C41")
 					(unit 1)
@@ -15635,6 +16134,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR05")
 					(unit 1)
@@ -15700,6 +16205,12 @@
 			(uuid "5887b4d9-50a1-4deb-88f2-32715688a22a")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR023")
@@ -15798,6 +16309,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "BT7")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "BT7")
 					(unit 1)
@@ -15862,6 +16379,12 @@
 			(uuid "227edcfe-d546-4a71-a717-d6f28f16bb6e")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR044")
@@ -15931,6 +16454,12 @@
 			(uuid "8f5c88fc-c69a-498f-a7c0-7875be6dede2")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R20")
@@ -16002,6 +16531,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R40")
 					(unit 1)
@@ -16066,6 +16601,12 @@
 			(uuid "24feaaca-b543-4ed9-b628-dea5c57e5153")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "TP4")
@@ -16191,6 +16732,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "U7")
 					(unit 1)
@@ -16260,6 +16807,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C40")
 					(unit 1)
@@ -16324,6 +16877,12 @@
 			(uuid "b8b67e07-996b-4c60-b94e-962dcb2c4710")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "TP3")
@@ -16390,6 +16949,12 @@
 			(uuid "1dbf1df0-3351-4d01-a801-40329cf3c038")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR06")
@@ -16464,6 +17029,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "J1")
 					(unit 1)
@@ -16532,6 +17103,12 @@
 			(uuid "d5f85656-c16f-41b9-be8a-55d1db158cd9")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C32")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C32")
@@ -16602,8 +17179,80 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bd5a15f-2977-498a-9ee4-43355a46a685")
+		(property "Reference" "#PWR037"
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "312d1ad2-b94c-4743-87b4-0e014ba94875")
+		)
+		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16670,6 +17319,12 @@
 			(uuid "8fd893c4-0979-45fa-8d4e-89db7895fe1c")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R3")
@@ -16740,6 +17395,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R7")
 					(unit 1)
@@ -16806,6 +17467,12 @@
 			(uuid "b194d2a0-6e57-4d74-8652-35ca48bd3482")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R15")
@@ -16876,6 +17543,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C26")
 					(unit 1)
@@ -16945,6 +17618,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R31")
 					(unit 1)
@@ -17013,6 +17692,12 @@
 			(uuid "464f88d2-604b-4655-aab6-35c27c69cce4")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C23")
@@ -17111,8 +17796,83 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 33.02 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ecef46d-23ce-4f86-9ad8-933d39e8620b")
+		(property "Reference" "J7"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 33.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29784bcd-0821-4d47-9444-262d865eab15")
+		)
+		(pin "1"
+			(uuid "a056746e-f918-4e78-957d-9374e0c760cb")
+		)
+		(instances
+			(project "OVERALL"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -17176,6 +17936,12 @@
 			(uuid "3a1a0b66-1533-44e9-a987-ad6845a13c41")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR07")
@@ -17242,6 +18008,12 @@
 			(uuid "f7d865d8-1cc0-424d-8c03-95e32a4dcbae")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "TP10")
@@ -17341,6 +18113,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "Q1")
 					(unit 1)
@@ -17408,6 +18186,12 @@
 			(uuid "38fbcd7c-91ff-4ade-b62d-c8913d239f4b")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "SW1")
@@ -17478,6 +18262,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C30")
 					(unit 1)
@@ -17544,6 +18334,12 @@
 			(uuid "0d0cb3e4-bd5c-4911-a3e0-1421c65bc919")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R10")
@@ -17614,6 +18410,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C31")
 					(unit 1)
@@ -17680,6 +18482,12 @@
 			(uuid "a9c8b93f-f53b-4674-96dd-13fc2c54fce2")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R43")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R43")
@@ -17750,6 +18558,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C24")
 					(unit 1)
@@ -17819,6 +18633,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C33")
 					(unit 1)
@@ -17885,6 +18705,12 @@
 			(uuid "ee789f54-a50a-475b-906d-f2bbc443a7a5")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R39")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R39")
@@ -17983,6 +18809,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "BT5")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "BT5")
 					(unit 1)
@@ -18050,6 +18882,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R14")
 					(unit 1)
@@ -18116,6 +18954,12 @@
 			(uuid "6538f073-ee04-4005-b4d0-51a6b60801c3")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "TH1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "TH1")
@@ -18186,6 +19030,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R22")
 					(unit 1)
@@ -18252,6 +19102,12 @@
 			(uuid "5e82120d-e980-4b87-9260-f809f79d0704")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R42")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R42")
@@ -18322,6 +19178,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C28")
 					(unit 1)
@@ -18391,6 +19253,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C9")
 					(unit 1)
@@ -18459,6 +19327,12 @@
 			(uuid "99f0bbbc-aa09-48b7-a893-e7734d4560b6")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C15")
@@ -18557,6 +19431,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "BT3")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "BT3")
 					(unit 1)
@@ -18627,6 +19507,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R41")
 					(unit 1)
@@ -18696,6 +19582,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R6")
 					(unit 1)
@@ -18763,6 +19655,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C29")
 					(unit 1)
@@ -18829,6 +19727,12 @@
 			(uuid "2af11369-a881-4e55-be29-70b9c02846a8")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R33")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R33")
@@ -18898,6 +19802,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "L2")
 					(unit 1)
@@ -18963,6 +19873,12 @@
 			(uuid "a6a50140-0ed7-4495-97ae-540615dddd5b")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR045")
@@ -19033,6 +19949,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C7")
 					(unit 1)
@@ -19102,6 +20024,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C13")
 					(unit 1)
@@ -19167,6 +20095,12 @@
 			(uuid "02ca6a86-a441-4a50-b512-66736cf05949")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR034")
@@ -19235,6 +20169,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R44")
 					(unit 1)
@@ -19301,6 +20241,12 @@
 			(uuid "66ba06ef-bfe3-407d-9d51-f9743c076d31")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C14")
@@ -19369,6 +20315,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R13")
 					(unit 1)
@@ -19434,6 +20386,12 @@
 			(uuid "733ce15f-cd85-4dd8-9e5a-df2282516bc4")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR016")
@@ -19532,6 +20490,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "BT8")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "BT8")
 					(unit 1)
@@ -19599,6 +20563,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R32")
 					(unit 1)
@@ -19664,6 +20634,12 @@
 			(uuid "07a1b3a4-a08e-4dc0-86b5-2d3d352f1e4b")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR011")
@@ -19734,6 +20710,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C38")
 					(unit 1)
@@ -19798,6 +20780,12 @@
 			(uuid "59b7be91-e4c5-46c5-a511-f6c3f4b6560d")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR020")
@@ -19893,6 +20881,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "U3")
 					(unit 1)
@@ -19962,6 +20956,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R34")
 					(unit 1)
@@ -20027,6 +21027,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR041")
 					(unit 1)
@@ -20091,6 +21097,12 @@
 			(uuid "8e408e61-6250-441b-9ef1-01e4bc213d5f")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR026")
@@ -20170,6 +21182,12 @@
 			(uuid "ff705a04-d30b-4dd1-a7c5-f0421d96bc22")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "D4")
@@ -20268,6 +21286,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "BT6")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "BT6")
 					(unit 1)
@@ -20337,6 +21361,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C11")
 					(unit 1)
@@ -20403,6 +21433,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR024")
 					(unit 1)
@@ -20468,6 +21504,12 @@
 			(uuid "2528ba97-59ae-4b43-8fbf-4a9a7b85cb75")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR012")
@@ -20548,6 +21590,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "U6")
 					(unit 1)
@@ -20612,6 +21660,12 @@
 			(uuid "c0a79609-04da-4cdf-a49a-a50b47fc06ca")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR08")
@@ -20682,6 +21736,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C8")
 					(unit 1)
@@ -20749,6 +21809,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "TP8")
 					(unit 1)
@@ -20813,6 +21879,12 @@
 			(uuid "bda55feb-bd99-445d-8c98-f799249944a5")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR018")
@@ -20882,6 +21954,12 @@
 			(uuid "f4f6e0c8-b659-4c05-b796-6a406283a07f")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C20")
@@ -20961,6 +22039,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "D1")
 					(unit 1)
@@ -21028,6 +22112,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R46")
 					(unit 1)
@@ -21093,6 +22183,12 @@
 			(uuid "cecd3b11-837c-48e5-aed7-8070116ccb66")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR022")
@@ -21163,6 +22259,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C27")
 					(unit 1)
@@ -21231,6 +22333,12 @@
 			(uuid "20e9b5a6-5eca-478a-a1ee-5dcf43c1a7ca")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R28")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R28")
@@ -21312,6 +22420,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "U5")
 					(unit 1)
@@ -21380,6 +22494,12 @@
 			(uuid "ed1af43c-64d5-4b91-8e35-b0fa977e02af")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C35")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C35")
@@ -21450,6 +22570,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R29")
 					(unit 1)
@@ -21518,6 +22644,12 @@
 			(uuid "a5de38e1-d1cf-4fac-aae0-159f28e4b5ac")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C25")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C25")
@@ -21588,6 +22720,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C2")
 					(unit 1)
@@ -21652,6 +22790,12 @@
 			(uuid "84164d49-b634-46a5-8767-62145a8e1e47")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR02")
@@ -21722,6 +22866,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C50")
 					(unit 1)
@@ -21790,6 +22940,12 @@
 			(uuid "79e5f86f-11df-4b8f-bfdc-e983ea1c2ba1")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R8")
@@ -21860,8 +23016,80 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac4ba11c-5d24-4a57-91bf-4da20bfa57f4")
+		(property "Reference" "#PWR040"
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac5a66ab-dbba-49d0-8152-63a3cd35ead1")
+		)
+		(instances
+			(project "OVERALL"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -21938,6 +23166,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "D3")
 					(unit 1)
@@ -22006,6 +23240,12 @@
 			(uuid "4a210491-c538-4ba5-9171-90ee775f0308")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C47")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C47")
@@ -22105,6 +23345,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "Q6")
 					(unit 1)
@@ -22173,6 +23419,12 @@
 			(uuid "dc2c314d-5532-4b5d-986b-70c30e739361")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R18")
@@ -22253,6 +23505,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "D5")
 					(unit 1)
@@ -22319,6 +23577,12 @@
 			(uuid "7b5cb82c-8e8d-4404-b084-875cfff2a7c1")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "TP5")
@@ -22388,6 +23652,12 @@
 			(uuid "5354fd72-9ebc-4922-b048-a95e978aa574")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R17")
@@ -22486,8 +23756,83 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 33.02 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0198b24-a651-409a-a92a-e3d3ce1a4993")
+		(property "Reference" "J6"
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 33.02 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 33.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32c9e243-beda-47d6-8332-b62320e6ec5a")
+		)
+		(pin "1"
+			(uuid "aaaf37f7-0154-4d41-92aa-3e8c0bac88d3")
+		)
+		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -22551,6 +23896,12 @@
 			(uuid "31db1dde-8140-49c9-8b42-c5de76f63a61")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR028")
@@ -22617,6 +23968,12 @@
 			(uuid "c7fdc53a-1ef2-4c34-94b2-f0a45c1246cc")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR01")
@@ -22715,6 +24072,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "Q4")
 					(unit 1)
@@ -22783,6 +24146,12 @@
 			(uuid "a2dca985-fe60-4045-952f-1a9b4e74704e")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R27")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R27")
@@ -22853,6 +24222,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C39")
 					(unit 1)
@@ -22922,6 +24297,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R35")
 					(unit 1)
@@ -22990,6 +24371,12 @@
 			(uuid "461477fe-b5f2-450d-a961-63fc5f21055e")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C44")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C44")
@@ -23067,6 +24454,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R37")
 					(unit 1)
@@ -23136,6 +24529,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R1")
 					(unit 1)
@@ -23201,6 +24600,12 @@
 			(uuid "4083986c-1fae-4684-9210-24b9c0069264")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR046")
@@ -23270,6 +24675,12 @@
 			(uuid "196d4573-1b37-4997-9acd-11f657743501")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R21")
@@ -23341,6 +24752,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C45")
 					(unit 1)
@@ -23410,6 +24827,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R24")
 					(unit 1)
@@ -23476,6 +24899,12 @@
 			(uuid "d6b2eeb8-4868-4acb-8ea6-7f25a3542938")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R38")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R38")
@@ -23545,6 +24974,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R11")
 					(unit 1)
@@ -23610,6 +25045,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR015")
 					(unit 1)
@@ -23674,6 +25115,12 @@
 			(uuid "f6458b03-0491-4026-8a1c-b0d7c695fb46")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR031")
@@ -23744,6 +25191,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R4")
 					(unit 1)
@@ -23813,6 +25266,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C12")
 					(unit 1)
@@ -23879,6 +25338,12 @@
 			(uuid "2926a44f-154b-4159-a4fa-3cd1de0009ec")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "TP6")
@@ -23949,6 +25414,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C5")
 					(unit 1)
@@ -24016,6 +25487,12 @@
 			(uuid "c58dbe00-a7a1-4b27-bb62-2a21fee32e86")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "L4")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "L4")
@@ -24114,6 +25591,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "Q3")
 					(unit 1)
@@ -24183,6 +25666,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C42")
 					(unit 1)
@@ -24249,6 +25738,12 @@
 			(uuid "928cc50f-4a30-4b91-93d1-a81d550768aa")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "TP9")
@@ -24319,6 +25814,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C21")
 					(unit 1)
@@ -24384,6 +25885,12 @@
 			(uuid "99bc02c6-7b95-4c64-90ca-154b63191aed")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR033")
@@ -24498,6 +26005,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "J2")
 					(unit 1)
@@ -24563,6 +26076,12 @@
 			(uuid "24cbb096-bd58-4a3f-a0e5-15e7cd1f2bef")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR03")
@@ -24633,6 +26152,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C22")
 					(unit 1)
@@ -24699,6 +26224,12 @@
 			(uuid "ddcddc65-2276-456a-90ce-8ad27ff29206")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R16")
@@ -24769,6 +26300,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C17")
 					(unit 1)
@@ -24835,6 +26372,12 @@
 			(uuid "29652247-a315-4385-993e-137ac61a3aab")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "TP2")
@@ -24905,6 +26448,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C51")
 					(unit 1)
@@ -24971,6 +26520,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR014")
 					(unit 1)
@@ -25036,6 +26591,12 @@
 			(uuid "de50f443-39d8-4a5a-80d6-daccc4e5ea89")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR010")
@@ -25134,6 +26695,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "BT4")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "BT4")
 					(unit 1)
@@ -25203,6 +26770,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R36")
 					(unit 1)
@@ -25270,6 +26843,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C1")
 					(unit 1)
@@ -25336,6 +26915,12 @@
 			(uuid "51c959ca-17f5-40a2-a58f-a4bee8d1c951")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "F1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "F1")
@@ -25405,6 +26990,12 @@
 			(uuid "ea23c122-8128-4772-a0fa-18756f650751")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C34")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C34")
@@ -25503,6 +27094,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "BT1")
 					(unit 1)
@@ -25572,6 +27169,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R5")
 					(unit 1)
@@ -25637,6 +27240,12 @@
 			(uuid "27a63693-549b-45a8-84d3-a916f68b1cbd")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR029")
@@ -25706,6 +27315,12 @@
 			(uuid "7d975a9c-a181-4e7b-ab43-d0cdca57575f")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C3")
@@ -25804,6 +27419,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "Q9")
 					(unit 1)
@@ -25873,6 +27494,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R23")
 					(unit 1)
@@ -25937,6 +27564,12 @@
 			(uuid "f9cfcbb0-acfb-4130-941e-adc03a358ce9")
 		)
 		(instances
+			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR032")
@@ -26035,6 +27668,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "Q5")
 					(unit 1)
@@ -26103,6 +27742,12 @@
 			(uuid "729306b8-7129-43b6-93f0-9deb4b37b497")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C48")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C48")
@@ -26314,6 +27959,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "IP1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "IP1")
 					(unit 1)
@@ -26382,6 +28033,12 @@
 			(uuid "a14c2ce5-f548-447a-abe1-68eb9b7414f3")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C49")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C49")
@@ -26508,6 +28165,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "U1")
 					(unit 1)
@@ -26576,6 +28239,12 @@
 			(uuid "5d149283-30cb-4e7b-8faf-93524a27e765")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R25")
@@ -26655,6 +28324,12 @@
 			(uuid "81700b93-f8c9-4775-946a-750e1d4df3dc")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "D2")
@@ -26781,6 +28456,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "U2")
 					(unit 1)
@@ -26879,6 +28560,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "Q2")
 					(unit 1)
@@ -26944,6 +28631,12 @@
 		)
 		(instances
 			(project ""
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR030")
 					(unit 1)
@@ -27008,6 +28701,12 @@
 			(uuid "08cdf332-3e90-4d67-a531-d86a8f36becd")
 		)
 		(instances
+			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
 			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "#PWR021")
@@ -27078,6 +28777,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "R19")
 					(unit 1)
@@ -27147,6 +28852,12 @@
 		)
 		(instances
 			(project "power-supply"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/78f1dc77-bf22-4751-b485-498b3e6b57a4"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+			(project "power-supply"
 				(path "/7a7e6c66-1988-4474-b38a-5845504abdf0"
 					(reference "C43")
 					(unit 1)
@@ -27154,10 +28865,4 @@
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
