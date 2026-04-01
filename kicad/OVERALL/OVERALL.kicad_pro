@@ -418,10 +418,6 @@
       "Main-Board"
     ],
     [
-      "eea0b253-8fa4-41dd-9ad3-ca52a23a8c16",
-      "Ports"
-    ],
-    [
       "78f1dc77-bf22-4751-b485-498b3e6b57a4",
       "Power Board"
     ],
@@ -436,6 +432,10 @@
     [
       "e1a52823-f947-4610-9419-62373c9ba07e",
       "Instrument board"
+    ],
+    [
+      "eea0b253-8fa4-41dd-9ad3-ca52a23a8c16",
+      "Ports"
     ]
   ],
   "text_variables": {}

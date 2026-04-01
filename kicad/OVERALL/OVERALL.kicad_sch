@@ -178,7 +178,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/home/aryan-kumar/Projects/CIPHER/kicad/GPIO-board/GPIO-board.kicad_sch"
+		(property "Sheetfile" "../GPIO-board/GPIO-board.kicad_sch"
 			(at 210.82 116.1546 0)
 			(effects
 				(font
@@ -259,7 +259,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/home/aryan-kumar/Projects/CIPHER/kicad/power-supply/power-supply.kicad_sch"
+		(property "Sheetfile" "../power-supply/power-supply.kicad_sch"
 			(at 26.924 114.3 0)
 			(effects
 				(font
@@ -331,7 +331,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/home/aryan-kumar/Projects/CIPHER/kicad/main-board/main-board.kicad_sch"
+		(property "Sheetfile" "../main-board/main-board.kicad_sch"
 			(at 119.38 116.1546 0)
 			(effects
 				(font
@@ -393,7 +393,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/home/aryan-kumar/Projects/CIPHER/kicad/Navigation-Board/Navigation-Board.kicad_sch"
+		(property "Sheetfile" "../Navigation-Board/Navigation-Board.kicad_sch"
 			(at 120.65 159.3346 0)
 			(effects
 				(font
@@ -475,7 +475,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/home/aryan-kumar/Projects/CIPHER/kicad/Instrument/Instrument.kicad_sch"
+		(property "Sheetfile" "../Instrument/Instrument.kicad_sch"
 			(at 156.21 78.0546 0)
 			(effects
 				(font
