@@ -236,6 +236,48 @@
 		)
 	)
 	(sheet
+		(at 87.63 50.8)
+		(size 43.18 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3ba6fb95-f0f0-4a62-93e6-7520b3fba829")
+		(property "Sheetname" "Radio Board"
+			(at 87.63 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../Radio-Board/Radio-Board.kicad_sch"
+			(at 87.63 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OVERALL"
+				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 43.18 85.09)
 		(size 35.56 29.21)
 		(exclude_from_sim no)

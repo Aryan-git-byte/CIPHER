@@ -250,7 +250,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "OVERALL.kicad_pro",
+    "filename": "Radio-Board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -408,39 +408,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "0e81c85d-86ab-4d5d-8c59-60b8e6f89475",
-      "Root"
-    ],
-    [
-      "b23c6cec-f7d8-4bb5-9180-0d1142d1aed0",
-      "Main-Board"
-    ],
-    [
-      "78f1dc77-bf22-4751-b485-498b3e6b57a4",
-      "Power Board"
-    ],
-    [
-      "0d6bced7-1bbd-4604-8bae-89d93aa4735e",
-      "GPIO breakout board"
-    ],
-    [
-      "bafe0d2a-8811-473e-8ec6-d3ad5dd25656",
-      "Navigation Board"
-    ],
-    [
-      "e1a52823-f947-4610-9419-62373c9ba07e",
-      "Instrument board"
-    ],
-    [
-      "3ba6fb95-f0f0-4a62-93e6-7520b3fba829",
-      "Radio Board"
-    ],
-    [
-      "eea0b253-8fa4-41dd-9ad3-ca52a23a8c16",
-      "Ports"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
