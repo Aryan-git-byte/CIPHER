@@ -55,6 +55,26 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 105.41) (xy 210.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710c1aa2-0b9b-4bc8-b8a3-ebef20efc7bf")
+	)
+	(wire
+		(pts
+			(xy 167.64 107.95) (xy 210.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751cd237-03a3-489e-9f79-207f0642deb0")
+	)
+	(wire
+		(pts
 			(xy 78.74 93.98) (xy 119.38 93.98)
 		)
 		(stroke
@@ -62,6 +82,16 @@
 			(type default)
 		)
 		(uuid "8612fc68-c076-46f5-9236-3ea441b671bb")
+	)
+	(wire
+		(pts
+			(xy 152.4 115.57) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90af0783-2b00-4923-a10a-88fbf5b2c2d3")
 	)
 	(wire
 		(pts
@@ -142,6 +172,16 @@
 			(type default)
 		)
 		(uuid "efaf33ab-57b4-4652-8821-57644ebfd298")
+	)
+	(wire
+		(pts
+			(xy 149.86 115.57) (xy 149.86 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1622a69-f53f-4bff-af98-707e02fb2921")
 	)
 	(wire
 		(pts
@@ -355,7 +395,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -374,7 +413,7 @@
 			)
 		)
 		(property "Sheetfile" "../main-board/main-board.kicad_sch"
-			(at 119.38 116.1546 0)
+			(at 121.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,6 +439,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "USB-DM1" bidirectional
+			(at 152.4 115.57 270)
+			(uuid "6dfa61c7-de5e-4ff3-85d3-7b3c9a400d97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB-DP1" bidirectional
+			(at 149.86 115.57 270)
+			(uuid "6967a7fa-22d3-479c-9a7c-16ff89f77b70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB-DM2" bidirectional
+			(at 167.64 107.95 0)
+			(uuid "49c03f3f-cb0d-443a-9092-dfdd763b3b02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB-DP2" bidirectional
+			(at 167.64 105.41 0)
+			(uuid "f7968222-308f-4161-af6b-04565240e6aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
