@@ -18,10 +18,26 @@
 		(uuid "526e6c78-d2ff-494b-aa30-03c1100e2668")
 	)
 	(junction
+		(at 107.95 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "644fe8d8-266e-45a4-9062-2b4c68f0245f")
+	)
+	(junction
 		(at 92.71 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7273b6e8-12cd-4f43-b314-6b2237c8905e")
+	)
+	(wire
+		(pts
+			(xy 107.95 104.14) (xy 107.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e185b0-73bb-4d5e-8f86-b303263690d3")
 	)
 	(wire
 		(pts
@@ -75,6 +91,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 127) (xy 76.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80da0523-9038-490c-91a6-9092b16b6d65")
+	)
+	(wire
+		(pts
 			(xy 78.74 93.98) (xy 119.38 93.98)
 		)
 		(stroke
@@ -105,7 +131,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 127) (xy 76.2 127)
+			(xy 218.44 127) (xy 107.95 127)
 		)
 		(stroke
 			(width 0)
@@ -182,6 +208,16 @@
 			(type default)
 		)
 		(uuid "f1622a69-f53f-4bff-af98-707e02fb2921")
+	)
+	(wire
+		(pts
+			(xy 119.38 104.14) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ed8179-1f6a-4db8-85c7-9e77a8dc73a2")
 	)
 	(wire
 		(pts
@@ -479,6 +515,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SSD_3V" input
+			(at 119.38 104.14 180)
+			(uuid "c49070de-f8dc-4377-acbf-772518bd7cf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
