@@ -260,7 +260,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -12.7 -43.18 0)
 				(length 2.54)
 				(name "VBUSG"
@@ -350,7 +350,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -12.7 -62.23 0)
 				(length 2.54)
 				(name "HG1"
@@ -404,7 +404,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -12.7 -73.66 0)
 				(length 2.54)
 				(name "LG1"
@@ -872,7 +872,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 15.24 -62.23 180)
 				(length 2.54)
 				(name "HG2"
@@ -926,7 +926,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 15.24 -73.66 180)
 				(length 2.54)
 				(name "LG2"
