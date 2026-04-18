@@ -226,44 +226,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|1638300|1549400|fde4cde0-fbe9-454f-9127-bcb62003b9f1|53cb3a6d-e9f7-4106-8953-dd7233b5fb6b|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/e1a52823-f947-4610-9419-62373c9ba07e|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/e1a52823-f947-4610-9419-62373c9ba07e|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/bafe0d2a-8811-473e-8ec6-d3ad5dd25656",
-        ""
-      ],
-      [
-        "pin_to_pin|1866900|1422400|ffa29463-430f-4e9e-b654-709becfdafe5|fde4cde0-fbe9-454f-9127-bcb62003b9f1|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/e1a52823-f947-4610-9419-62373c9ba07e|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/e1a52823-f947-4610-9419-62373c9ba07e|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/e1a52823-f947-4610-9419-62373c9ba07e",
-        ""
-      ],
-      [
-        "pin_to_pin|1866900|889000|07c702fc-cb74-4250-a5ae-a8b0430fca96|ffa29463-430f-4e9e-b654-709becfdafe5|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/e1a52823-f947-4610-9419-62373c9ba07e|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/e1a52823-f947-4610-9419-62373c9ba07e|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/e1a52823-f947-4610-9419-62373c9ba07e",
-        ""
-      ],
-      [
-        "pin_to_pin|660400|2070100|358cb328-a634-4c86-883d-f16c98a0e372|74b1ce0c-7a7b-4097-b43a-4d96eae74fad|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/bafe0d2a-8811-473e-8ec6-d3ad5dd25656|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/bafe0d2a-8811-473e-8ec6-d3ad5dd25656|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/0d6bced7-1bbd-4604-8bae-89d93aa4735e",
-        ""
-      ],
-      [
-        "pin_to_pin|749300|304800|b2c398fe-6591-4318-a5eb-316d37e25c2d|69b9da3f-69d5-4db3-a1fe-832b05d084f7|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/0d6bced7-1bbd-4604-8bae-89d93aa4735e|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/0d6bced7-1bbd-4604-8bae-89d93aa4735e|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/e1a52823-f947-4610-9419-62373c9ba07e",
-        ""
-      ],
-      [
-        "pin_to_pin|889000|1409700|6e5b1a99-e433-4e62-90c1-3c327b36492a|53cb3a6d-e9f7-4106-8953-dd7233b5fb6b|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/bafe0d2a-8811-473e-8ec6-d3ad5dd25656|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/bafe0d2a-8811-473e-8ec6-d3ad5dd25656|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/bafe0d2a-8811-473e-8ec6-d3ad5dd25656",
-        ""
-      ],
-      [
-        "pin_to_pin|889000|1943100|53cb3a6d-e9f7-4106-8953-dd7233b5fb6b|358cb328-a634-4c86-883d-f16c98a0e372|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/bafe0d2a-8811-473e-8ec6-d3ad5dd25656|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/bafe0d2a-8811-473e-8ec6-d3ad5dd25656|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/bafe0d2a-8811-473e-8ec6-d3ad5dd25656",
-        ""
-      ],
-      [
-        "pin_to_pin|977900|381000|66372828-e22c-417c-827d-05efdc187e51|74b1ce0c-7a7b-4097-b43a-4d96eae74fad|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/0d6bced7-1bbd-4604-8bae-89d93aa4735e|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/0d6bced7-1bbd-4604-8bae-89d93aa4735e|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/0d6bced7-1bbd-4604-8bae-89d93aa4735e",
-        ""
-      ],
-      [
-        "pin_to_pin|977900|914400|74b1ce0c-7a7b-4097-b43a-4d96eae74fad|37c1551d-5c80-4d11-8ad6-41f8fc4e9fcd|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/0d6bced7-1bbd-4604-8bae-89d93aa4735e|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/0d6bced7-1bbd-4604-8bae-89d93aa4735e|/0e81c85d-86ab-4d5d-8c59-60b8e6f89475/0d6bced7-1bbd-4604-8bae-89d93aa4735e",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -656,12 +619,16 @@
       "Main-Board"
     ],
     [
-      "78f1dc77-bf22-4751-b485-498b3e6b57a4",
-      "Power Board"
+      "a8be06b1-571f-48c8-970e-462298f8bbd6",
+      "Ports"
     ],
     [
-      "0d6bced7-1bbd-4604-8bae-89d93aa4735e",
-      "GPIO breakout board"
+      "ed4211b6-8245-4b09-acae-1cf19e5170b7",
+      "NVMe Socket & Connectors"
+    ],
+    [
+      "78f1dc77-bf22-4751-b485-498b3e6b57a4",
+      "Power Board"
     ],
     [
       "bafe0d2a-8811-473e-8ec6-d3ad5dd25656",
@@ -676,12 +643,12 @@
       "Radio Board"
     ],
     [
-      "ed4211b6-8245-4b09-acae-1cf19e5170b7",
-      "NVMe Socket & Connectors"
+      "0d6bced7-1bbd-4604-8bae-89d93aa4735e",
+      "GPIO breakout board"
     ],
     [
-      "eea0b253-8fa4-41dd-9ad3-ca52a23a8c16",
-      "Ports"
+      "4eab5f72-1564-43fd-a430-dc2dce29150d",
+      "Ethernet"
     ]
   ],
   "text_variables": {}
