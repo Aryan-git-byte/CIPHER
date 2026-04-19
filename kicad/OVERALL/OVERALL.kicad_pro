@@ -619,7 +619,7 @@
       "Main-Board"
     ],
     [
-      "a8be06b1-571f-48c8-970e-462298f8bbd6",
+      "04bd6087-f5df-45bb-8035-07cbccd50479",
       "Ports"
     ],
     [
@@ -647,8 +647,8 @@
       "GPIO breakout board"
     ],
     [
-      "4eab5f72-1564-43fd-a430-dc2dce29150d",
-      "Ethernet"
+      "875c4e4e-fbcb-4362-9b3b-523edf2357aa",
+      "Connectors"
     ]
   ],
   "text_variables": {}
