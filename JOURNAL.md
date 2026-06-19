@@ -7,11 +7,9 @@ created_at: "2026-03-19"
 
 # Project kickoff & Power Board schematic
 
-# CIPHER
-## Compact Integrated Platform for Hardware Engineering and Research
+**CIPHER — Compact Integrated Platform for Hardware Engineering and Research**
 
-
-### Objective:
+**Objective:**
 An integrated portable workstation with 8 gigabytes of ram, plenty of storage (target - 256 gb ssd), Exposed GPIO headers(SPI, I2C, UART, etc) to test sensors, components directly. 
 The communication protocols of the workstation are LTE, LoRa, WiFi, and BLE.
 It will have the following ports:
@@ -35,7 +33,7 @@ It will have the following ports:
 - 2x 5V pin
 
 
-## Modularity:
+**Modularity:**
 
 
 The Cyberdeck will be divided into 1 main board and 5 daughterboards(this number can be changed as we develop further) that will communicate with each other using protocols such as SPI,UART etc.
@@ -232,14 +230,13 @@ Timelapse: https://public.lapse-hackclub.link/timelapses/2C-y4Fbgew83/timelapse-
 
 Hi, today i started by reading ERCs, and trying to fix them. then i started adding connectors in boards, writing its documentations, doing minor changes allover the schematic, sorry i dont remember much bcz im journaling after like 6 days, but i will consistent starting from today.
 soo yhh i did all that, start writing documentations 
-```
-# CIPHER - A Detailed OverView of the Schematic:
+**CIPHER - A Detailed OverView of the Schematic:**
 
 This is CIPHER, A Compact Integrated Platform For Hardware & Engineering Research.  
 And in this doc i will discuss about the schematic of the CIPHER and how each Module (referred as Daughterboard) will communicate and interact with each other. Also before reading this if u havent read [link](About-CIPHER.md).  
 Starting off with the Overall Schematic, in this page i wanted to demonstrate how the Daughter Boards, will be connected to each other through connectors such as JST-XH, JST-SH, WS-90 etc.
 
-# 1 Overall Schematic:
+**1 Overall Schematic:**
 
 Figure.1:
 ![Schematic-1](images\Schematic\Schematic_page-0001.jpg)
@@ -291,7 +288,6 @@ In conclusion:
 3. 1x 01x08 JST-XH connector
 
 And now with this he whole Overall Schematic is done connecting all the DaughterBoards with the Main Board.
-```
 
 okay so after this i faced a sudden power cut and my all files + a 2 hr recording,, so i was very depressed after this. and stopped working on CIPHER for 1-2 days , then i retur back on 18th april. the main issue was that the files in the git history were too old. and the kicad only had backup of overall schematic, not others  hierarchial sheets,
  so  regarding this i came and undo whatever i had in my git history and with a pdf i saved last time, i started restoring the schematic bit by bit
