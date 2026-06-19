@@ -302,13 +302,13 @@ Timelapses:
 
 Hi today i started again by restoring the schematic and writing the docs of the Schematic connections:
 ```
-# CIPHER - A Detailed OverView of the Schematic:
+## CIPHER - A Detailed OverView of the Schematic:
 
 This is CIPHER, A Compact Integrated Platform For Hardware & Engineering Research.  
 And in this doc i will discuss about the schematic of the CIPHER and how each Module (referred as Daughterboard) will communicate and interact with each other. Also before reading this if u havent read [link](About-CIPHER.md).  
 Starting off with the Overall Schematic, in this page i wanted to demonstrate how the Daughter Boards, will be connected to each other through connectors such as JST-XH, JST-SH, WS-90 etc.
 
-# 1 Overall Schematic:
+## 1 Overall Schematic:
 
 Figure.1:
 ![Schematic-1](images\Schematic\Schematic_page-0001.jpg)
