@@ -1,15 +1,11 @@
-# CIPHER — Journal Export
+---
+title: "CIPHER"
+author: "TheMudGuy"
+description: "Compact Integrated Platform for Hardware Engineering and Research — a modular CM5-based cyberdeck with 6 custom KiCad PCBs"
+created_at: "2026-03-19"
+---
 
-- Exported at: 2026-05-15T09:21:32Z
-- Project ID: 8
-- Entries: 12
-
-## Entry 1
-- ID: 206
-- Author: TheMudGuy
-- Created At: 2026-03-19T09:36:23Z
-
-### Content
+# Project kickoff & Power Board schematic
 
 # CIPHER
 ## Compact Integrated Platform for Hardware Engineering and Research
@@ -96,17 +92,11 @@ this whole process was too long, from reading datasheets, searching hrs for a si
 
 also, i forgot to timelapse this cm5 carrier board work, although its not much so i'll just ignore the hrs of it, it was smthg around 1-2 hrs too, it was mostly taken reefernce from the official cm5 carrier board thats why it was quick
 
+Timelapse: https://public.lapse-hackclub.link/timelapses/pCE9Pr_62jN5/timelapse-pCE9Pr_62jN5.mp4
 
-### Recording Links
+**Total time spent: 7 hours 49 min**
 
-- https://public.lapse-hackclub.link/timelapses/pCE9Pr_62jN5/timelapse-pCE9Pr_62jN5.mp4
-
-## Entry 2
-- ID: 320
-- Author: TheMudGuy
-- Created At: 2026-03-22T14:30:19Z
-
-### Content
+# Charging circuit, navigation board & breakout board
 
 today, first i started by implemting chargin feature in my schematic with ip2368, but i found out that the symbol of this ic didnt existed for kicad, so had to drew it too, and then started implementing it in the board , and overall completed the whole power board except the connectors that are to be placed:
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzMzLCJwdXIiOiJibG9iX2lkIn19--dd6c132050b324550d7d831310431dc2c5d12e43/image.png)
@@ -123,18 +113,14 @@ after that i started working on the breakout board which is still kinda incomple
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzM4LCJwdXIiOiJibG9iX2lkIn19--bd4bb754c9c3a8cc45fee8e41b6b6c848b4eeec3/image.png)
 thats all i did  on this day, see yaa
 
-### Recording Links
-
+Timelapses:
 - https://public.lapse-hackclub.link/timelapses/NV78D3_SI4x4/timelapse-NV78D3_SI4x4.mp4
 - https://public.lapse-hackclub.link/timelapses/kjuWi_eqHoEB/timelapse-kjuWi_eqHoEB.mp4
 - https://public.lapse-hackclub.link/timelapses/5uAo6Y--3Oyj/timelapse-5uAo6Y--3Oyj.mp4
 
-## Entry 3
-- ID: 1218
-- Author: TheMudGuy
-- Created At: 2026-04-05T07:55:29Z
+**Total time spent: 4 hours 15 min**
 
-### Content
+# Cleaning up CM5 carrier board & USB changes
 
 hiii, today i started by organizing the CM5 carrier board schematic, which previously looked like a mess is now a clean schematic:
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjY4NywicHVyIjoiYmxvYl9pZCJ9fQ==--b0629d4bed1bdc8df935fa9f700eb4c5b1a9ae7f/image.png)
@@ -144,6 +130,7 @@ and the changes i did are as follows:
 
 - i also added a USB2.0 hub ic , to connect the navigation board and GPIO breakout board with the CM5 through USB:
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjY4OSwicHVyIjoiYmxvYl9pZCJ9fQ==--f0ed5c4a755b2c197268ed97bff6f1912bfe7916/image.png)
+
 - i also replaced 2x HDMI-A with 1x HDMI-A and 1x HDMI-C.:
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjY5MCwicHVyIjoiYmxvYl9pZCJ9fQ==--01b6dd6b43ce2487b99330b3182d33fafd1a0434/image.png)
 - and simplified the NVMe port:
@@ -152,18 +139,14 @@ after that i started researching about the Monitor to use and selected this one:
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjY5MiwicHVyIjoiYmxvYl9pZCJ9fQ==--fd478a76cad30f9eab16e754b4c6620a720c74c8/image.png)
 this is all the things i did, and as always chosing Display is not easy man, u have to like scroll a lot and then hop on one.
 
-### Recording Links
-
+Timelapses:
 - https://public.lapse-hackclub.link/timelapses/9NkPjEwhZABB/timelapse-9NkPjEwhZABB.mp4
 - https://public.lapse-hackclub.link/timelapses/8x_S-KY60xsu/timelapse-8x_S-KY60xsu.mp4
 - https://public.lapse-hackclub.link/timelapses/LRWA-5fO69hY/timelapse-LRWA-5fO69hY.mp4
 
-## Entry 4
-- ID: 3183
-- Author: TheMudGuy
-- Created At: 2026-04-21T10:12:32Z
+**Total time spent: 2 hours 30 min**
 
-### Content
+# DAC, NVMe, Ethernet — completing the main board schematic
 
 Hiiii, so today i decided to complete the schematic of the CIPHER - main board so first  i placed a DAC IC PCM5102A for high quality sound in my CyberDeck and then i connected it along with a headphone jack:
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjYwNywicHVyIjoiYmxvYl9pZCJ9fQ==--a8054fb62250cacdf5d21e3cd89292033a61fcb0/image.png)
@@ -172,17 +155,11 @@ after that i made the connection of the NvMe Slot for the ssd
 and after completing this i started working on the ethernet and made its schematic too 
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjYxMCwicHVyIjoiYmxvYl9pZCJ9fQ==--c1e4acbe115d5b823157e66f1f4ecf42e7c8b1de/image.png)
 
+Timelapse: https://public.lapse-hackclub.link/timelapses/tmAsFf3opQUc/timelapse-tmAsFf3opQUc.mp4
 
-### Recording Links
+**Total time spent: 1 hour 46 min**
 
-- https://public.lapse-hackclub.link/timelapses/tmAsFf3opQUc/timelapse-tmAsFf3opQUc.mp4
-
-## Entry 5
-- ID: 3184
-- Author: TheMudGuy
-- Created At: 2026-04-21T10:21:03Z
-
-### Content
+# 40-pin header, SD card, DSI/CSI connectors & final main board cleanup
 
 Hiiiii, so today i started by arranging my messed up schematic, and i wired the 40 pins header in the main board for future use or if smtimes i need em in case
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjYxMSwicHVyIjoiYmxvYl9pZCJ9fQ==--43b5f0f3301a5b4c2a8c88a4f03b2643a96c3eeb/image.png)
@@ -202,16 +179,11 @@ then i added DSI/CSi connectors in the schematic:
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjYxNywicHVyIjoiYmxvYl9pZCJ9fQ==--fb81ff6f4cbd3feca4cf060d7336e09722803566/image.png)
 after that i doubled whole main board and ensured everythign is right and connected left out lables or pins.
 
-### Recording Links
+Timelapse: https://public.lapse-hackclub.link/timelapses/-HCTVPgyLOj2/timelapse--HCTVPgyLOj2.mp4
 
-- https://public.lapse-hackclub.link/timelapses/-HCTVPgyLOj2/timelapse--HCTVPgyLOj2.mp4
+**Total time spent: 1 hour 27 min**
 
-## Entry 6
-- ID: 3193
-- Author: TheMudGuy
-- Created At: 2026-04-21T11:01:51Z
-
-### Content
+# Adding LTE (SIM7600E-H) & extra USB hub to the radio board
 
 Hi yall, so i wanted to add LTE to my Cyberdeck, because thats cool, + like i can maybe attend my calls with a cyberdeck too ,and access internet from anywhere. so i started my hunting by searching for some modules and stumbled upon SIM7670-G and sim7600e-h, both of which are very popular options. then i started to dig more about em , and found out that sim7600e-h is superior to the SIM7670-G in terms of download & upload speed.
 but also it has some downsides that it is a bit more expensive and it has more current requirement, but its features justify them.
@@ -225,18 +197,13 @@ then i morphed one power supply from 5v to 4.2v then 3.8v for the radio board.th
 
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjYyNywicHVyIjoiYmxvYl9pZCJ9fQ==--90eb44ac0f999aee38a75b1f2352c3c4a1cb40a7/image.png)
 
-
-### Recording Links
-
+Timelapses:
 - https://public.lapse-hackclub.link/timelapses/MTlOoLgT0HFM/timelapse-MTlOoLgT0HFM.mp4
 - https://public.lapse-hackclub.link/timelapses/xy6RJpzRv5JQ/timelapse-xy6RJpzRv5JQ.mp4
 
-## Entry 7
-- ID: 3195
-- Author: TheMudGuy
-- Created At: 2026-04-21T11:05:27Z
+**Total time spent: 1 hour 23 min**
 
-### Content
+# Adding LoRa (SX1262S915N0S1) & missing components
 
 hiii, this time i added some missing components in the schematic and added bunch of testpoints. and tehn i started researching for other modules and radio communications to  have on my deck, and i finalized LoRa as one of them, and i researched bout it added it to schematic and wried it all :
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjYyOCwicHVyIjoiYmxvYl9pZCJ9fQ==--6e9c0c642d6c31016adf0f72552f0764f47df23a/image.png)
@@ -244,16 +211,11 @@ and also i m using this specific LoRa module:
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjYzMSwicHVyIjoiYmxvYl9pZCJ9fQ==--26a7c67d26d5714ffe13f7481ca050f01f51b63c/image.png)
 SX1262S915N0S1
 
-### Recording Links
+Timelapse: https://public.lapse-hackclub.link/timelapses/B6GcOzRcl61j/timelapse-B6GcOzRcl61j.mp4
 
-- https://public.lapse-hackclub.link/timelapses/B6GcOzRcl61j/timelapse-B6GcOzRcl61j.mp4
+**Total time spent: 56 min**
 
-## Entry 8
-- ID: 3199
-- Author: TheMudGuy
-- Created At: 2026-04-21T11:19:14Z
-
-### Content
+# Instrument board — logic analyzer & oscilloscope
 
 today, my goal was to complete the whole schematic .
 first i polished the main board and then i made the instrument board that consist of  a logic analyzer and an oscilloscope:
@@ -262,17 +224,11 @@ first i polished the main board and then i made the instrument board that consis
 this board is connected to the main board through USB data lines.
 which will communicate over serial communication to the main board.
 
+Timelapse: https://public.lapse-hackclub.link/timelapses/2C-y4Fbgew83/timelapse-2C-y4Fbgew83.mp4
 
-### Recording Links
+**Total time spent: 1 hour 50 min**
 
-- https://public.lapse-hackclub.link/timelapses/2C-y4Fbgew83/timelapse-2C-y4Fbgew83.mp4
-
-## Entry 9
-- ID: 3200
-- Author: TheMudGuy
-- Created At: 2026-04-21T11:32:17Z
-
-### Content
+# ERCs, connectors, docs — then a power cut killed 2 hours of work
 
 Hi, today i started by reading ERCs, and trying to fix them. then i started adding connectors in boards, writing its documentations, doing minor changes allover the schematic, sorry i dont remember much bcz im journaling after like 6 days, but i will consistent starting from today.
 soo yhh i did all that, start writing documentations 
@@ -340,17 +296,13 @@ And now with this he whole Overall Schematic is done connecting all the Daughter
 okay so after this i faced a sudden power cut and my all files + a 2 hr recording,, so i was very depressed after this. and stopped working on CIPHER for 1-2 days , then i retur back on 18th april. the main issue was that the files in the git history were too old. and the kicad only had backup of overall schematic, not others  hierarchial sheets,
  so  regarding this i came and undo whatever i had in my git history and with a pdf i saved last time, i started restoring the schematic bit by bit
 
-### Recording Links
-
+Timelapses:
 - https://public.lapse-hackclub.link/timelapses/ZGyMXbbkUDuW/timelapse-ZGyMXbbkUDuW.mp4
 - https://public.lapse-hackclub.link/timelapses/A-Lmj8DnW7kE/timelapse-A-Lmj8DnW7kE.mp4
 
-## Entry 10
-- ID: 3201
-- Author: TheMudGuy
-- Created At: 2026-04-21T11:41:46Z
+**Total time spent: 2 hours 35 min**
 
-### Content
+# Restoring schematic from PDF + documenting navigation board wiring
 
 Hi today i started again by restoring the schematic and writing the docs of the Schematic connections:
 ```
@@ -516,37 +468,99 @@ and this is the complete schematic as of now:
 ![output3_page-0010.jpg](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjY1NSwicHVyIjoiYmxvYl9pZCJ9fQ==--38a69010fd38efb0ebf79c6b11173bb82f87e282/output3_page-0010.jpg)
 and after that i started journaling my projects
 
-### Recording Links
-
+Timelapses:
 - https://public.lapse-hackclub.link/timelapses/LeHkxJ-kFLGI/timelapse-LeHkxJ-kFLGI.mp4
 - https://public.lapse-hackclub.link/timelapses/Tcjf3Nbry5ca/timelapse-Tcjf3Nbry5ca.mp4
 
-## Entry 11
-- ID: 6212
-- Author: TheMudGuy
-- Created At: 2026-05-09T05:51:37Z
+**Total time spent: 3 hours 46 min**
 
-### Content
+# Swapping out overkill buck converters for better ones
 
 Hi, so today i started by importing some symbol to kicad and then changed the buck converter ic in the power board to make it more power-efficient and previous buck converters were overkill so fixed it then i also edited the ic symbol to make it easier to use and designed the whole schematic:
 ![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTMxNzEsInB1ciI6ImJsb2JfaWQifX0=--f2ae491665c92e5715a06aecd4c9f8d6850b4785/image.png)
 
+Timelapse: https://public.lapse-hackclub.link/timelapses/xkmwdyNnk9PY/timelapse-xkmwdyNnk9PY.mp4
 
-### Recording Links
+**Total time spent: 1 hour 6 min**
 
-- https://public.lapse-hackclub.link/timelapses/xkmwdyNnk9PY/timelapse-xkmwdyNnk9PY.mp4
-
-## Entry 12
-- ID: 6589
-- Author: TheMudGuy
-- Created At: 2026-05-11T13:45:11Z
-
-### Content
+# Simplifying charging circuit — ditching the complex ICs
 
 Today i changed my charging circuitory from those complex IC to simple charging circuit with a barrel jack 
 ![Screenshot_2026-05-11-19-13-13-431_com.android.chrome-edit.jpg](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTQyMDEsInB1ciI6ImJsb2JfaWQifX0=--d4d05697bc35552d35e85d08e6599cd9cde38c19/Screenshot_2026-05-11-19-13-13-431_com.android.chrome-edit.jpg)
 Because I didn't wanted to make the BOM and project anymore complex I stripped down that much complexity and I may strip down even more functionalities for V1 in future.
 
-### Recording Links
+Timelapse: https://public.lapse-hackclub.link/timelapses/vfAe_d3sIZTV/timelapse-vfAe_d3sIZTV.mp4
 
-- https://public.lapse-hackclub.link/timelapses/vfAe_d3sIZTV/timelapse-vfAe_d3sIZTV.mp4
+**Total time spent: 1 hour 8 min**
+
+# Cross-referencing against another cyberdeck, fixing 5V line blunder & footprint errors
+
+i started by importing the schematics of a youtube who made a pretty cool cyberdeck, which u can see here :
+https://youtu.be/U5GZeMm5nhI?si=OXDAsQNcQ8HMBxDx
+![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc3MjYsInB1ciI6ImJsb2JfaWQifX0=--146c44c20e8dc734b1af8047da788babc21a14b1/image.png)
+so i imported his schematic, and started cross-referncing mines against and stole some features such as tvs diodes etc :
+![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc3MjcsInB1ciI6ImJsb2JfaWQifX0=--0a9b99b9e051bb903c74cdca64b815afb73ca042/image.png)
+i also found out that i had did a huge blunder by changing 5v line to just 4A instead of 8A, so i fixed it by replacing it with the 3.3v one 
+![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc3MjgsInB1ciI6ImJsb2JfaWQifX0=--cb8bd47d48e4aac02590c453c8189b23b3a43602/image.png)
+so i fixde it
+![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc3MjksInB1ciI6ImJsb2JfaWQifX0=--07aa13b48c3685304cff93697f3447ddb4ddb6d7/image.png)
+and for the charging, i decided to use a 12v@65W charger.
+after that i started assigning footprints to all the symbols and then it showed this problem:
+```
+Warning: No net found for component Q2 pad 5 (no pin 5 in symbol).
+
+Warning: No net found for component Q2 pad 8 (no pin 8 in symbol).
+
+Warning: No net found for component Q2 pad 6 (no pin 6 in symbol).
+
+Warning: No net found for component Q2 pad 4 (no pin 4 in symbol).
+
+Warning: No net found for component Q2 pad 7 (no pin 7 in symbol).
+
+Warning: No net found for component Q3 pad 8 (no pin 8 in symbol).
+
+Warning: No net found for component Q3 pad 5 (no pin 5 in symbol).
+
+Warning: No net found for component Q6 pad 6 (no pin 6 in symbol).
+
+Warning: No net found for component Q5 pad 6 (no pin 6 in symbol).
+
+Warning: No net found for component Q5 pad 4 (no pin 4 in symbol).
+
+Warning: No net found for component Q5 pad 5 (no pin 5 in symbol).
+
+Warning: No net found for component Q3 pad 6 (no pin 6 in symbol).
+
+Warning: No net found for component Q3 pad 7 (no pin 7 in symbol).
+
+Warning: No net found for component Q6 pad 4 (no pin 4 in symbol).
+
+Warning: No net found for component Q5 pad 7 (no pin 7 in symbol).
+
+Warning: No net found for component Q6 pad 8 (no pin 8 in symbol).
+
+Warning: No net found for component Q6 pad 5 (no pin 5 in symbol).
+
+Warning: No net found for component Q3 pad 4 (no pin 4 in symbol).
+
+Warning: No net found for component Q6 pad 7 (no pin 7 in symbol).
+
+Warning: No net found for component Q5 pad 8 (no pin 8 in symbol).
+
+Error: U6 pad EXP not found in Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias.
+
+Error: U7 pad EXP not found in Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias.
+
+Total warnings: 20, errors: 2. 
+
+```
+
+so i fixed it by changing the symbol of the mosfets and using hidden pins . 
+and fixed the buck ic problem in this way too and rest ones too then i started laying them out:
+![image.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTc3MzAsInB1ciI6ImJsb2JfaWQifX0=--ae5f8e8d05f3bb11e516355b3cae4f9f3485db05/image.png)
+
+Timelapses:
+- https://public.lapse-hackclub.link/timelapses/zKZQbjeElz5z/timelapse-zKZQbjeElz5z.mp4
+- https://public.lapse-hackclub.link/timelapses/d2DLBhMlJogl/timelapse-d2DLBhMlJogl.mp4
+
+**Total time spent: 3 hours 10 min**
