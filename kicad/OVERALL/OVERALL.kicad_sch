@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "0e81c85d-86ab-4d5d-8c59-60b8e6f89475")
 	(paper "A4")
 	(lib_symbols)
@@ -113,10 +113,22 @@
 		(uuid "76f31b88-9cf3-44cf-9a53-97a500246f83")
 	)
 	(junction
+		(at 140.97 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88bcb1d1-8528-4bde-b9b2-951da7e9c797")
+	)
+	(junction
 		(at 97.79 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ce729e6-ff05-41df-95f3-c9c73df237fa")
+	)
+	(junction
+		(at 144.78 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2cc4a3e-e522-4c86-b532-9dc0962570f5")
 	)
 	(junction
 		(at 97.79 130.81)
@@ -337,6 +349,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 107.95) (xy 140.97 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae26d4c-d043-4b5c-b200-a13dc13e6a2c")
+	)
+	(wire
+		(pts
 			(xy 109.22 45.72) (xy 109.22 121.92)
 		)
 		(stroke
@@ -397,6 +419,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 107.95) (xy 140.97 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2570e025-b75c-4f28-ae8f-8b140cdcfa0e")
+	)
+	(wire
+		(pts
 			(xy 132.08 135.89) (xy 95.25 135.89)
 		)
 		(stroke
@@ -437,7 +469,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 104.14) (xy 140.97 151.13)
+			(xy 140.97 104.14) (xy 140.97 107.95)
 		)
 		(stroke
 			(width 0)
@@ -677,6 +709,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 105.41) (xy 144.78 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d269dd-e06e-4912-a48e-95b8d9d77e43")
+	)
+	(wire
+		(pts
 			(xy 95.25 85.09) (xy 95.25 68.58)
 		)
 		(stroke
@@ -764,6 +806,16 @@
 			(type default)
 		)
 		(uuid "894af9ec-da9a-4de0-b656-7d92c9d852d7")
+	)
+	(wire
+		(pts
+			(xy 168.91 39.37) (xy 168.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ceb865d-dad9-4831-9817-aa2f00d91a3f")
 	)
 	(wire
 		(pts
@@ -877,16 +929,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 67.31) (xy 168.91 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad58af71-197a-4dd2-9fb3-0a965e4b907b")
-	)
-	(wire
-		(pts
 			(xy 100.33 123.19) (xy 127 123.19)
 		)
 		(stroke
@@ -947,13 +989,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 144.78 151.13)
+			(xy 144.78 104.14) (xy 144.78 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "beb459fa-cc17-4b73-8203-7367ea473ddb")
+	)
+	(wire
+		(pts
+			(xy 78.74 105.41) (xy 144.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0955a64-fdb0-441c-9d9b-3da556810eb8")
 	)
 	(wire
 		(pts
@@ -1057,13 +1109,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 43.18) (xy 165.1 67.31)
+			(xy 165.1 43.18) (xy 165.1 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea2d10ce-96db-4e65-8e03-7e1ff91ad9b2")
+		(uuid "f241d8b5-1a27-4fc1-bf15-f243d9f24802")
 	)
 	(wire
 		(pts
@@ -1158,11 +1210,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0d6bced7-1bbd-4604-8bae-89d93aa4735e")
 		(property "Sheetname" "GPIO breakout board"
 			(at 185.42 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,6 +1226,8 @@
 		)
 		(property "Sheetfile" "../GPIO-board/GPIO-board.kicad_sch"
 			(at 185.42 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,11 +1305,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3ba6fb95-f0f0-4a62-93e6-7520b3fba829")
 		(property "Sheetname" "Radio Board"
 			(at 34.29 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,6 +1321,8 @@
 		)
 		(property "Sheetfile" "../Radio-Board/Radio-Board.kicad_sch"
 			(at 32.766 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,11 +1490,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "78f1dc77-bf22-4751-b485-498b3e6b57a4")
 		(property "Sheetname" "Power Board"
 			(at 43.18 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,6 +1506,8 @@
 		)
 		(property "Sheetfile" "../power-supply/power-supply.kicad_sch"
 			(at 37.338 150.114 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,6 +1565,36 @@
 				(justify right)
 			)
 		)
+		(pin "SDA" bidirectional
+			(at 78.74 105.41 0)
+			(uuid "9cf46b97-d974-4616-9d4a-0f9f1e00c585")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 78.74 107.95 0)
+			(uuid "00d3c094-d69c-4753-a3ee-fe055c0335c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO" bidirectional
+			(at 78.74 110.49 0)
+			(uuid "87068b06-27e4-45bd-a1d9-977f8e87a53a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "OVERALL"
 				(path "/0e81c85d-86ab-4d5d-8c59-60b8e6f89475"
@@ -1521,11 +1615,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b23c6cec-f7d8-4bb5-9180-0d1142d1aed0")
 		(property "Sheetname" "Main-Board"
 			(at 118.11 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,6 +1631,8 @@
 		)
 		(property "Sheetfile" "../main-board/main-board.kicad_sch"
 			(at 118.11 62.738 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,11 +1871,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "bafe0d2a-8811-473e-8ec6-d3ad5dd25656")
 		(property "Sheetname" "Navigation Board"
 			(at 120.65 150.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,6 +1887,8 @@
 		)
 		(property "Sheetfile" "../Navigation-Board/Navigation-Board.kicad_sch"
 			(at 120.65 173.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,11 +1976,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e1a52823-f947-4610-9419-62373c9ba07e")
 		(property "Sheetname" "Instrument board"
 			(at 116.332 20.066 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,6 +1992,8 @@
 		)
 		(property "Sheetfile" "../Instrument/Instrument.kicad_sch"
 			(at 106.172 21.082 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
